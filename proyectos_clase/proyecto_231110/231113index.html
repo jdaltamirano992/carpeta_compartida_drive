@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+            /* Reset */
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            /* Còdigo propio */
+
+            h1 {
+                color: blue;
+                font-size: 3.2rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            header,footer {
+                    background-color: darkorange;                    
+                    min-height: 4rem;
+                    /*width: 80%;*/
+                    /*margin: 0 auto;*/
+                }
+
+            nav {
+                    background-color: blueviolet;                    
+                    min-height: 1.8rem;
+                    /*width: 80%;*/
+                    /*margin: 0 auto;*/
+                }
+
+            main {
+                    background-color: gold;                    
+                    min-height: 10rem;
+                    display: flex;
+                    justify-content: space-between;
+                    /*width: 80%;*/
+                    /*margin-top: 0.12rem;
+                    margin: 0 auto;*/
+                }
+
+            .poner-borde { 
+                border: 0.2rem solid black;
+            }
+
+            #container {
+                background-color: aqua;
+                width: 80%;
+                height: auto;
+            }
+
+            .izquierda {
+                background-color: chartreuse;
+                width: 30%;
+                min-height: 7rem; 
+                border: 0.2rem solid black;               
+            }
+
+            .derecha {
+                background-color: rgb(0, 162, 255);
+                width: 30%;
+                min-height: 7rem;      
+                border: 0.2rem solid black;          
+            } 
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Viajes por Bizkaia</h1>
+            <h2>Recorre las tierras y costas de la provincia</h2>
+            
+            <!--header-->
+
+            <header>
+                    <p>Esto es el encabezado</p>
+            </header>
+
+            <!--nav-->
+
+            <nav class="poner-borde">
+                <p>Esto es el menu</p>
+            </nav>
+
+            <!--main-->
+
+            <main class="poner-borde">
+                <div class="izquierda"><p>Esto es el contenido principal</p></div>
+                <div class="derecha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem recusandae ad incidunt esse eaque.<a href="#">Primer enlaace</a>aepe officiis eligendi distinctio sit unde fuga quod! Molestiae tempora blanditiis. <a href="#">Segundo enlaace</a> quaerat itaque sed voluptatibus alias, ut inventore vel incidunt sunt quod.</div>
+            </main>
+
+            <!--footer-->
+
+            <footer>
+                <p>Esto es el footer</p>
+            </footer>            
+        </div>
+    </body>
+</html>
