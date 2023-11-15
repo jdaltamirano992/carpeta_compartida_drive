@@ -1,0 +1,110 @@
+/*  Reset   */
+
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+a  {
+    color: black;
+    text-decoration: none; 
+}
+
+ul, ol {
+    list-style: none;
+    margin-left: 0;
+}
+
+/*  Codigo propio   */
+
+h1 {
+    color: blue;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+header,footer {
+    background-color: darkorange;
+     /* width: 80%; */
+        min-height: 4rem;
+}
+
+nav {
+    background-color: blueviolet;
+    min-height: 1.8rem;
+    }
+
+main {
+    background-color: gold;
+    min-height: 25rem;
+    margin-top: 0.12rem;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.poner-borde { 
+    border: 0.2rem solid black;
+
+}
+#container { 
+    background-color: aqua;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* PRIMERA DISPOSICION DEL MAIN
+
+    .izquierda {
+    background-color: chartreuse;
+    width: 30%;
+    min-height: 8rem;
+    border: 0.2rem solid black;}
+
+.derecha {
+    background-color: #f7e7a7;
+    width: 30%;
+    min-height: 8rem;
+    border: 0.2rem solid black;
+} */
+
+main div {
+    background-color: #f7e7a7;
+    width: 32.53%;
+    min-height: 8rem;
+    border: 0.2rem solid black;
+}
+
+main div a {
+    font-size: 1.6rem;
+    font-weight: 700;9
+    color: rgb(190, 108, 15);
+}
+
+ul {
+    background-color: coral;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* li {
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+} */
+
+nav ul li {
+    width: 4.6rem;
+    margin: 0.15rem;
+    background-color: cyan;;
+    text-align: center;
+    border-radius: 0.2rem;
+}
