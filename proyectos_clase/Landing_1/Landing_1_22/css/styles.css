@@ -1,0 +1,62 @@
+/* Colors: Dark blue - 2C3E50 Light blue - 1ABC9C White - FFFFFF */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+
+nav {
+    background-color: #2C3E50;
+    height: 4rem;
+    display: flex;
+    justify-content:space-around;
+}
+
+nav ul {
+    padding-top: 0.5rem;
+    width: 30%;
+}  
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+} 
+
+nav h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-left: 10rem;
+}
+
+header {
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.subtitulo-header {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+img.avatar {
+    width: 10rem;
+    height: 10rem;
+}
+
+.star-white {
+    height: 1.5rem;
+}
+
+.star-black {
+    height: 1.5rem;
+}
