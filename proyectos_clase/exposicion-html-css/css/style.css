@@ -1,0 +1,15 @@
+.contenedor-grid {
+    /* width: 60%; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #022746;
+    padding: 2rem;
+  }
+  .contenedor__elemento {
+    background-color: #2196F3;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
